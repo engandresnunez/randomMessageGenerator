@@ -101,7 +101,7 @@ const randomPhrases = () => {
             break;
     }
   
-    return 'It seems like, ' + phrase1 + '\n' + phrase2;
+    return 'It seems like, ' + phrase1 + '.\n' + phrase2 + '.';
 }
 
 console.log(sayHelloFunct(signGenerator()));
